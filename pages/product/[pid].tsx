@@ -10,6 +10,8 @@ import { ProductTypeList } from '../../types';
 // import { ProductType } from 'types';
 import Gallery from '../../components/product-single/gallery';
 import Content from '../../components/product-single/content';
+import Description from '../../components/product-single/description';
+import Reviews from '../../components/product-single/reviews';
 
 type ProductPageType = {
   product: ProductTypeList;
@@ -46,15 +48,15 @@ const Product = ({ product }: ProductPageType) => {
               <button type="button" onClick={() => setShowBlock('reviews')} className={`btn btn--rounded ${showBlock === 'reviews' ? 'btn--active' : ''}`}>Reviews (2)</button>
             </div>
 
-            {/* <Description show={showBlock === 'description'} /> */}
-            {/* <Reviews product={product} show={showBlock === 'reviews'} /> */}
+            <Description show={showBlock === 'description'} />
+            <Reviews product={product} show={showBlock === 'reviews'} />
           </div>
         </div>
       </section>
 
-      <div className="product-single-page">
+      {/* <div className="product-single-page">
         <ProductsFeatured />
-      </div>
+      </div> */}
       <Footer />
     </Layout>
   );

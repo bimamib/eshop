@@ -1,11 +1,10 @@
-import { ProductType } from "../../../types";
-import Punctuation from "./punctuation";
-import ReviewsList from "./review-list";
-
+import Punctuation from './punctuation';
+import { ProductType } from '../../../types';
+import ReviewsList from './review-list';
 
 type ReviewsProductType = {
   show: boolean;
-  product: ProductType
+  product: ProductType;
 }
 
 const Reviews = ({ show, product }: ReviewsProductType) => {
