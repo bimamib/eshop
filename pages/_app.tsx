@@ -1,18 +1,15 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
-// import {wrapper} from '../store';
-
+import React, { Fragment } from 'react';
+import Router from 'next/router';
+import {wrapper} from '../store';
 
 // global styles
 // import 'swiper/swiper.scss';
 // import 'rc-slider/assets/index.css';
 // import 'react-rater/lib/react-rater.css';
 import '../assets/css/styles.scss';
-import Router from 'next/router';
 
+import type { AppProps } from 'next/app';
 import * as gtag from './../utils/gtag';
-import { Fragment } from 'react';
-import { wrapper } from '../store';
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -29,4 +26,5 @@ const MyApp = ({ Component, pageProps }: AppProps) => (
   </Fragment>
 );
 
-export default (MyApp);
+// export default (MyApp);
+export default wrapper.withRedux(MyApp);

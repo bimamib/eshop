@@ -1,5 +1,5 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit'
-import  createWrapper from 'next-redux-wrapper';
+import { createWrapper } from 'next-redux-wrapper';
 import cartReducer from './reducers/cart';
 import userReducer from './reducers/user';
 import storage from 'redux-persist/lib/storage'

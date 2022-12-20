@@ -37,7 +37,7 @@ const Product = ({ product }: ProductPageType) => {
         <div className="container">
           <div className="product-single__content">
             <Gallery images={product.images} />
-            <Content product={product}/>
+            {/* <Content product={product} />cls */}
           </div>
 
           <div className="product-single__info">

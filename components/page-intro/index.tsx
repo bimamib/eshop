@@ -38,7 +38,7 @@ const PageIntro = () => {
               <i className="icon-shipping"></i>
               <div className="data-item__content">
                 <h4>Bebas Biaya Kirim</h4>
-                <p>Untuk pembelian lebih dari 3Jokut</p>
+                <p>Untuk pembelian lebih dari 3Juta</p>
               </div>
             </li>
             
@@ -53,7 +53,7 @@ const PageIntro = () => {
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">
-                <h4>Orisinalitas Dijamin</h4>
+                <h4>Terjamin Original</h4>
                 <p>Garansi 30 hari untuk setiap produk dari toko kami</p>
               </div>
             </li>
