@@ -1,5 +1,5 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit'
-import { createWrapper } from 'next-redux-wrapper';
+import  createWrapper from 'next-redux-wrapper';
 import cartReducer from './reducers/cart';
 import userReducer from './reducers/user';
 import storage from 'redux-persist/lib/storage'
@@ -52,7 +52,7 @@ const makeStore = ({ isServer }: { isServer: Boolean }) => {
 
 // export an assembled wrapper
 // @ts-ignore:next-line
-export const wrapper = creatWrapper(makeStore, {debug: true});
+export const wrapper = createWrapper(makeStore, {debug: true});
 
 // Infer the `RootState` and `AppDispatch` types from the store itself
 export type RootState = ReturnType<typeof store.getState>

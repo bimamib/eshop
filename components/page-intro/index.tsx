@@ -20,7 +20,7 @@ const PageIntro = () => {
         </SwiperSlide> */}
 
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/slide-2.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/banner.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>Make your house into a home</h2>

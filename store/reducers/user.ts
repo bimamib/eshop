@@ -23,7 +23,7 @@ interface UserSliceTypes {
 
 const initialState = {
   user: {
-    name: 'Lucas Pulliese',
+    name: 'Eshop',
   },
   favProducts: [],
 } as UserSliceTypes

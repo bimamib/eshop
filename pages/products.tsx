@@ -1,5 +1,6 @@
 import Breadcrumb from '../components/breadcrumb';
 import Footer from '../components/footer';
+import ProductsFilter from '../components/products-filter';
 import Layout from '../layouts/main';
 import ProductsContent from './../components/products-content/index';
 
@@ -9,7 +10,7 @@ const Products = () => (
       <Breadcrumb />
       <section className="products-page">
         <div className="container">
-          {/* <ProductsFilter /> */}
+          <ProductsFilter />
           <ProductsContent />
         </div>
       </section>
