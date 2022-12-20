@@ -13,21 +13,21 @@ const IndexPage = ()=> {
         <article style={{ backgroundImage: 'url(/images/Makramee/15.jpg)' }} className="featured-item featured-item-large">
           <div className="featured-item__content">
             <h3>Produk Baru!!!</h3>
-            <a href="#" className="btn btn--rounded">Show Collection</a>
+            <a href="#" className="btn btn--rounded">Tampilkan Koleksi</a>
           </div>
         </article>
 
         <article style={{ backgroundImage: 'url(/images/Makramee/10.jpg)' }} className="featured-item featured-item-small-first">
           <div className="featured-item__content">
-            <h3>Basic t-shirts $29,99</h3>
-            <a href="#" className="btn btn--rounded">More details</a>
+            <h3>Galaxy variant </h3>
+            <a href="#" className="btn btn--rounded">Lihat LEbih Lanjut</a>
           </div>
         </article>
 
         <article style={{ backgroundImage: 'url(/images/Makramee/11.jpg)' }} className="featured-item featured-item-small">
           <div className="featured-item__content">
-            <h3>Sale this summer</h3>
-            <a href="#" className="btn btn--rounded">VIEW ALL</a>
+            <h3>Semua Promo</h3>
+            <a href="#" className="btn btn--rounded">Lihat Produk</a>
           </div>
         </article>
       </div>
@@ -41,7 +41,7 @@ const IndexPage = ()=> {
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>Free Shipping</h4>
+                <h4>Gratis Ongkir</h4>
                 <p>All purchases over $199 are eligible for free shipping via USPS First Class Mail.</p>
               </div>
             </li>
@@ -57,7 +57,7 @@ const IndexPage = ()=> {
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">
-                <h4>Money-Back Guarantee</h4>
+                <h4>Garansi Uang Kembali</h4>
                 <p>If an item arrived damaged or you've changed your mind, you can send it
                   back for a full refund.</p>
               </div>
@@ -66,7 +66,7 @@ const IndexPage = ()=> {
             <li>
               <i className="icon-materials"></i>
               <div className="data-item__content">
-                <h4>Finest Quality</h4>
+                <h4>Kualitas Terbaik</h4>
                 <p>Designed to last, each of our products has been crafted with the finest materials.</p>
               </div>
             </li>

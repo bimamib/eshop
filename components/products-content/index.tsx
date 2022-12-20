@@ -6,22 +6,30 @@ const ProductsContent = () => {
     return (
         <section className="products-content">
         <div className="products-content__intro">
-          <h2>Men's Tops <span>(133)</span></h2>
+          <h2>Macrame <span>(9)</span></h2>
           <button type="button" onClick={() => setOrderProductsOpen(!orderProductsOpen)} className="products-filter-btn"><i className="icon-filters"></i></button>
           <form className={`products-content__filter ${orderProductsOpen ? 'products-order-open' : ''}`}>
             <div className="products__filter__select">
-              <h4>Show products: </h4>
+              <h4>Tampilkan Produk : </h4>
               <div className="select-wrapper">
                 <select>
-                  <option>Popular</option>
+                  <option>Populer</option>
+                  <option>Terbaru</option>
+                  <option>Terlaris</option>
+                  <option>Harga Tertinggi</option>
+                  <option>Harga Terendah</option>
                 </select>
               </div>
             </div>
             <div className="products__filter__select">
-              <h4>Sort by: </h4>
+              <h4>Cari Berdasarkan : </h4>
               <div className="select-wrapper">
                 <select>
-                  <option>Popular</option>
+                  <option>Populer</option>
+                  <option>Terbaru</option>
+                  <option>Terlaris</option>
+                  <option>Harga Tertinggi</option>
+                  <option>Harga Terendah</option>
                 </select>
               </div>
             </div>

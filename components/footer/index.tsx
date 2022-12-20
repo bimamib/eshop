@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="site-footer__top">
           <div className="site-footer__description">
-            <h6><Logo /> <span>E</span>-Shop</h6>
+            <h6><Logo /> <span>Me</span>-Shop</h6>
             <p>House My Brand mendesain pakaian untuk yang muda, tua & semua orang di antaranya – tetapi yang terpenting, untuk yang modis</p>
             {/* <ul className="site-footer__social-networks">
               <li><a href="#"><i className="icon-facebook"></i></a></li>

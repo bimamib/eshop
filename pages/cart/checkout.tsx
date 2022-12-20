@@ -75,7 +75,7 @@ const CheckoutPage = () => {
                       <div className="select-wrapper select-form">
                         <select>
                           <option>Country</option>
-                          <option value="Argentina">Argentina</option>
+                          <option value="Indonesia">Indonesia</option>
                         </select>
                       </div>
                     </div>
@@ -86,7 +86,7 @@ const CheckoutPage = () => {
             
             <div className="checkout__col-4">
               <div className="block">
-                <h3 className="block__title">Payment method</h3>
+                <h3 className="block__title">Metode Pembayaran</h3>
                 <ul className="round-options round-options--three">
                   <li className="round-item">
                     <img src="/images/logos/paypal.png" alt="Paypal" />
@@ -110,23 +110,23 @@ const CheckoutPage = () => {
               </div>
               
               <div className="block">
-                <h3 className="block__title">Delivery method</h3>
+                <h3 className="block__title">Jasa Pengantaran</h3>
                 <ul className="round-options round-options--two">
                   <li className="round-item round-item--bg">
                     <img src="/images/logos/inpost.svg" alt="Paypal" />
-                    <p>$20.00</p>
+                    <p>Rp20.00</p>
                   </li>
                   <li className="round-item round-item--bg">
                     <img src="/images/logos/dpd.svg" alt="Paypal" />
-                    <p>$12.00</p>
+                    <p>Rp12.00</p>
                   </li>
                   <li className="round-item round-item--bg">
                     <img src="/images/logos/dhl.svg" alt="Paypal" />
-                    <p>$15.00</p>
+                    <p>Rp15.00</p>
                   </li>
                   <li className="round-item round-item--bg">
                     <img src="/images/logos/maestro.png" alt="Paypal" />
-                    <p>$10.00</p>
+                    <p>Rp10.00</p>
                   </li>
                 </ul>
               </div>
@@ -134,12 +134,12 @@ const CheckoutPage = () => {
             
             <div className="checkout__col-2">
               <div className="block">
-                <h3 className="block__title">Your cart</h3>
+                <h3 className="block__title">Keranjang</h3>
                 <CheckoutItems />
                 
                 <div className="checkout-total">
                   <p>Total cost</p>
-                  <h3>${priceTotal}</h3>
+                  <h3>Rp{priceTotal}</h3>
                 </div>
               </div>
             </div>
@@ -148,8 +148,8 @@ const CheckoutPage = () => {
           <div className="cart-actions cart-actions--checkout">
             <a href="/cart" className="cart__btn-back"><i className="icon-left"></i> Back</a>
             <div className="cart-actions__items-wrapper">
-              <button type="button" className="btn btn--rounded btn--border">Continue shopping</button>
-              <button type="button" className="btn btn--rounded btn--yellow">Proceed to payment</button>
+              <button type="button" className="btn btn--rounded btn--border">Lanjut Belanja</button>
+              <button type="button" className="btn btn--rounded btn--yellow">Proses Pembayaran</button>
             </div>
           </div>
         </div>

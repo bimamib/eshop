@@ -23,8 +23,8 @@ const PageIntro = () => {
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/banner.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Woi Beli Macrame dong!!</h2>
-                <a href="#" className="btn-shop"><i className="icon-right"></i>Ayo Belanja sekarang</a>
+                <h2>Menjual Berbagai Jenis Macrame</h2>
+                <a href="#" className="btn-shop"><i className="icon-right"></i>Belanja sekarang</a>
               </div>
             </div>
           </div>
@@ -37,24 +37,24 @@ const PageIntro = () => {
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>Bebas Biaya Kirim</h4>
-                <p>Untuk pembelian lebih dari 3Juta</p>
+                <h4>Gratis Ongkir</h4>
+                <p>Untuk Minimal Pembelian 1 juta</p>
               </div>
             </li>
             
             <li>
               <i className="icon-shipping"></i>
               <div className="data-item__content">
-                <h4>99% Pelanggan Puas</h4>
-                <p>Pendapat klien kami berbicara sendiri</p>
+                <h4>100% Pelanggan Puas</h4>
+                <p>Pendapat Testimoni Dari Berbagai Pelanggan</p>
               </div>
             </li>
             
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">
-                <h4>Terjamin Original</h4>
-                <p>Garansi 30 hari untuk setiap produk dari toko kami</p>
+                <h4>Dijamin Original</h4>
+                <p>Garansi 30 Hari Untuk Setiap Produk Dari Toko Kami</p>
               </div>
             </li>
           </ul>
