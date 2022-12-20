@@ -23,7 +23,7 @@ const PageIntro = () => {
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/banner.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Make your house into a home</h2>
+                <h2>Woi Beli Macrame dong!!</h2>
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Ayo Belanja sekarang</a>
               </div>
             </div>
