@@ -22,11 +22,7 @@ const PageIntro = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-<<<<<<< HEAD
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/Makramee/banner10.jpg')" }}>
-=======
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/Makramee/1.jpg')" }}>
->>>>>>> c361868d5a87d6247fd8124d327869d19dca8d19
             <div className="container">
               <div className="page-intro__slide__content">
                 <h2>Menjual Berbagai Jenis Macrame</h2>
