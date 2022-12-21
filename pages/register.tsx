@@ -2,11 +2,10 @@ import Layout from '../layouts/main';
 import Link from 'next/link';
 
 const RegisterPage = () => (
-  <Layout>
     <section className="form-page">
       <div className="container">
         <div className="back-button-section">
-          <Link href="/products" legacyBehavior>
+          <Link href="/login" legacyBehavior>
             <a><i className="icon-left"></i> Back to store</a>
           </Link>
         </div>
@@ -47,7 +46,6 @@ const RegisterPage = () => (
 
       </div>
     </section>
-  </Layout>
 )
   
 export default RegisterPage;

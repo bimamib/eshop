@@ -14,7 +14,7 @@ const PageIntro = () => {
 
   return (
     <section className="page-intro">  
-      <Swiper navigation effect="coverflow" className="swiper-wrapper">
+      <Swiper navigation effect="creative" className="swiper-wrapper">
         <SwiperSlide>
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/Makramee/banner10.jpg')" }}>
             <div className="container">
