@@ -84,7 +84,7 @@ const Header = ({ isErrorPage }: HeaderType) => {
               }
             </button>
           </Link>
-          <Link href="/register" legacyBehavior>
+          <Link href="/login" legacyBehavior>
             <button className="site-header__btn-avatar"><i className="icon-avatar"></i></button>
           </Link>
           <button 
