@@ -14,7 +14,7 @@ type HeaderType = {
 
 const Header = ({ isErrorPage }: HeaderType) => {
   const router = useRouter();
-  // const { cartItems } = useSelector((state: RootState)  => state.cart);
+  const { cartItems } = useSelector((state: RootState)  => state.cart);
   const arrayPaths = ['/'];  
 
   const [onTop, setOnTop] = useState(( !arrayPaths.includes(router.pathname) || isErrorPage ) ? false : true);
@@ -76,14 +76,14 @@ const Header = ({ isErrorPage }: HeaderType) => {
             </form>  
             <i onClick={() => setSearchOpen(!searchOpen)}  className="icon-search"></i>
           </button>
-          {/* <Link href="/cart" legacyBehavior>
+          <Link href="/cart" legacyBehavior>
             <button className="btn-cart">
               <i className="icon-cart"></i>
               {cartItems.length > 0 && 
                 <span className="btn-cart__count">{cartItems.length}</span>
               }
             </button>
-          </Link> */}
+          </Link>
           <Link href="/register" legacyBehavior>
             <button className="site-header__btn-avatar"><i className="icon-avatar"></i></button>
           </Link>

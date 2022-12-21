@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
-import { RootState } from '../../store';
-import CheckoutStatus from '../checkout-status';
+import CheckoutStatus from '../../components/checkout-status';
 import Item from './item';
+import { RootState } from '../../store';
 
 const ShoppingCart = () => {
   const { cartItems } = useSelector((state: RootState)  => state.cart);
@@ -72,4 +72,4 @@ const ShoppingCart = () => {
 };
 
   
-export default ShoppingCart;
+export default ShoppingCart

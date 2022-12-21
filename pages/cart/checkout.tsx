@@ -2,7 +2,6 @@ import Layout from '../../layouts/main';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../store';
 import CheckoutStatus from '../../components/checkout-status';
-import CheckoutItems from './../../components/checkout/items/index';
 
 
 const CheckoutPage = () => {

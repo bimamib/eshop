@@ -6,6 +6,8 @@ import { RootState } from '../../../store';
 import { toggleFavProduct } from '../../../store/reducers/user';
 import { addProduct } from '../../../store/reducers/cart';
 import productsSizes from '../../../utils/data/products-size';
+import productsColors from '../../../utils/data/products-colors';
+import CheckboxColor from '../../products-filter/form-builder/checkbox-color';
 
 type ProductContent = {
   product: ProductType;
@@ -67,8 +69,8 @@ const Content = ({ product }: ProductContent) => {
 
       <div className="product-content__filters">
         <div className="product-filter-item">
-          <h5>Warna:</h5>
-          {/* <div className="checkbox-color-wrapper">
+          <h5>Color:</h5>
+          <div className="checkbox-color-wrapper">
             {productsColors.map(type => (
               <CheckboxColor 
                 key={type.id} 
@@ -79,7 +81,7 @@ const Content = ({ product }: ProductContent) => {
                 onChange={onColorSet} 
               />
             ))}
-          </div> */}
+          </div>
         </div>
         <div className="product-filter-item">
           <h5>Ukuran: <strong>Lihat ukuran tabel</strong></h5>
