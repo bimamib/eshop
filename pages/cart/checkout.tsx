@@ -104,7 +104,7 @@ const CheckoutPage = () => {
                     <img src="/images/logos/OVO2.png" alt="Paypal" />
                   </li>
                   <li className="round-item">
-                    <img src="/images/logos/ideal-logo.svg" alt="Paypal" />
+                    <img src="/images/logos/Logo Dana.png" alt="Paypal" />
                   </li>
                 </ul>
               </div>
@@ -113,19 +113,19 @@ const CheckoutPage = () => {
                 <h3 className="block__title">Jasa Pengiriman</h3>
                 <ul className="round-options round-options--two">
                   <li className="round-item round-item--bg">
-                    <img src="/images/logos/inpost.svg" alt="Paypal" />
+                    <img src="/images/logos/JNT-Express-Logo.png" alt="Paypal" />
                     <p>Rp20.000</p>
                   </li>
                   <li className="round-item round-item--bg">
-                    <img src="/images/logos/dpd.svg" alt="Paypal" />
+                    <img src="/images/logos/Sicepat.png" alt="Paypal" />
                     <p>Rp12.000</p>
                   </li>
                   <li className="round-item round-item--bg">
-                    <img src="/images/logos/dhl.svg" alt="Paypal" />
+                    <img src="/images/logos/Gojek.png" alt="Paypal" />
                     <p>Rp15.000</p>
                   </li>
                   <li className="round-item round-item--bg">
-                    <img src="/images/logos/maestro.png" alt="Paypal" />
+                    <img src="/images/logos/Logo-TIKI.png" alt="Paypal" />
                     <p>Rp10.000</p>
                   </li>
                 </ul>
