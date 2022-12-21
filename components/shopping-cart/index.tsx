@@ -24,7 +24,7 @@ const ShoppingCart = () => {
         </div>
 
         <div className="cart-list">
-          {cartItems.length > 0 &&
+          {cartItems.length > 0 &&  
             <table>
               <tbody>
                 <tr>
@@ -62,7 +62,7 @@ const ShoppingCart = () => {
           <input type="text" placeholder="Promo Code" className="cart__promo-code" />
 
           <div className="cart-actions__items-wrapper">
-            <p className="cart-actions__total">Total cost <strong>${priceTotal().toFixed(2)}</strong></p>
+            <p className="cart-actions__total">Total <strong>Rp{priceTotal().toFixed(3)}</strong></p>
             <a href="/cart/checkout" className="btn btn--rounded btn--yellow">Checkout</a>
           </div>
         </div>
