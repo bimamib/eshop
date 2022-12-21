@@ -2,6 +2,7 @@ import Layout from '../../layouts/main';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../store';
 import CheckoutStatus from '../../components/checkout-status';
+import CheckoutItems from '../../components/checkout/items';
 
 
 const CheckoutPage = () => {
@@ -137,7 +138,7 @@ const CheckoutPage = () => {
                 <CheckoutItems />
                 
                 <div className="checkout-total">
-                  <p>Total cost</p>
+                  <p>Total </p>
                   <h3>Rp{priceTotal}</h3>
                 </div>
               </div>
