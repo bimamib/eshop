@@ -39,7 +39,7 @@ const Footer = () => {
       
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY KELOMPOK 3 - ©</p>
+          <p>DESIGN BY KELOMPOK3.co</p>
         </div>
       </div>
     </footer>

@@ -62,10 +62,10 @@ const Header = ({ isErrorPage }: HeaderType) => {
         </Link>
         <nav ref={navRef} className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}>
           <Link href="/products" legacyBehavior>
-            <a>Products</a>
+            <a>Produk</a>
           </Link>
-          <a href="#">About Us</a>
-          <button className="site-nav__btn"><p>Account</p></button>
+          <a href="#">Tentang Kami</a>
+          <button className="site-nav__btn"><p>Akun</p></button>
         </nav>
 
         <div className="site-header__actions">

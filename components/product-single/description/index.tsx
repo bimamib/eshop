@@ -12,12 +12,12 @@ type ProductDescriptionType = {
         <div className="product-description-block">
           <i className="icon-cart"></i>
           <h4>Detail dan Deskripsi Produk</h4>
-          <p>T-shirt Summer Vibes Putih dalam garis uiKit dengan cetakan warna-warni. <br></br>Terbuat dari bahan katun jersey. T-shirt sangat cocok dengan jeans, celana atau celana pendek.</p>
+          <p>Macrame dengan berbagai jenis yang dapat mempercantik hiasan rumah. <br></br>Terbuat dari benang yang kuat. Macrame sangat cocok dijadikan hiasan rumah.</p>
         </div>
         <div className="product-description-block">
           <i className="icon-cart"></i>
           <h4>Detail dan Deskripsi Produk</h4>
-          <p>T-shirt Summer Vibes Putih dalam garis uiKit dengan cetakan warna-warni.<br></br>Terbuat dari bahan katun jersey. T-shirt sangat cocok dengan jeans, celana atau celana pendek.</p>
+          <p>Macrame dengan berbagai jenis yang dapat mempercantik hiasan rumah.<br></br>Terbuat dari benang yang kuat. Macrame sangat cocok dijadikan hiasan rumah.</p>
         </div>
       </section>
     );
