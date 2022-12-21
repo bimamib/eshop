@@ -113,7 +113,7 @@ const CheckoutPage = () => {
                 <h3 className="block__title">Jasa Pengiriman</h3>
                 <ul className="round-options round-options--two">
                   <li className="round-item round-item--bg">
-                    <img src="/images/logos/JNT-Express-Logo.png" alt="Paypal" />
+                    <img src="/images/logos/LOGO-JNT.png" alt="Paypal" />
                     <p>Rp20.000</p>
                   </li>
                   <li className="round-item round-item--bg">
