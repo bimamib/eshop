@@ -24,23 +24,21 @@ const Footer = () => {
             <ul>
               <li>Belanja Online</li>
               <li><Link href="#">Order Status</Link></li>
-              <li><Link href="#">Shipping and Delivery</Link></li>
-              <li><Link href="#">Returns</Link></li>
+              <li><Link href="#">Pengantaran</Link></li>
+              <li><Link href="#">Garansi Pengembalian</Link></li>
               <li><Link href="#">Opsi Pembayaran</Link></li>
-              <li><Link href="#">Contact Us</Link></li>
             </ul>
             <ul>
               <li>Informasi</li>
-              <li><Link href="#">Gift Cards</Link></li>
-              <li><Link href="#">Find a store</Link></li>
-              <li><Link href="#">Newsletter</Link></li>
-              <li><Link href="#">Bacome a member</Link></li>
-              <li><Link href="#">Site feedback</Link></li>
+              <li><Link href="#">Temukan Toko Terdekat</Link></li>
+              <li><Link href="#">Produk Terbaru</Link></li>
+              <li><Link href="#">Daftar Langganan</Link></li>
+              <li><Link href="#">Kritik dan Saran</Link></li>
             </ul>
             <ul>
               <li>Kontak</li>
-              <li><Link href="#">store@uikit.com</Link></li>
-              <li><Link href="#">Hotline: +1 131 138 138</Link></li>
+              <li><Link href="#">Meshop@gmail.com</Link></li>
+              <li><Link href="#">Hotline: 02112345678</Link></li>
             </ul>
           </div>
         </div>
@@ -48,7 +46,7 @@ const Footer = () => {
       
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY ICEO.CO - ©</p>
+          <p>DESIGN BY KELOMPOK 3 - ©</p>
         </div>
       </div>
     </footer>
