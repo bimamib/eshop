@@ -39,7 +39,24 @@ const Product = ({ product }: ProductPageType) => {
         <div className="container">
           <div className="product-single__content">
             <Gallery images={product.images} />
-            <Content product={product} />
+            <Content product={{
+              id: '',
+              name: '',
+              thumb: '',
+              price: '',
+              count: 0,
+              color: '',
+              size: '',
+              images: [],
+              discount: undefined,
+              currentPrice: 0,
+              punctuation: {
+                countOpinions: 0,
+                punctuation: 0,
+                votes: []
+              },
+              reviews: []
+            }} />
           </div>
 
           <div className="product-single__info">
@@ -49,7 +66,24 @@ const Product = ({ product }: ProductPageType) => {
             </div>
 
             <Description show={showBlock === 'description'} />
-            <Reviews product={product} show={showBlock === 'reviews'} />
+            <Reviews show={showBlock === 'reviews'} product={{
+              id: '',
+              name: '',
+              thumb: '',
+              price: '',
+              count: 0,
+              color: '',
+              size: '',
+              images: [],
+              discount: undefined,
+              currentPrice: 0,
+              punctuation: {
+                countOpinions: 0,
+                punctuation: 0,
+                votes: []
+              },
+              reviews: []
+            }} />
           </div>
         </div>
       </section>
