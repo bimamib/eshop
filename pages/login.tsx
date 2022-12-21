@@ -10,7 +10,7 @@ type LoginMail = {
 }
 
 const LoginPage = () => {
-  const { register, handleSubmit, errors } = useForm();
+  const { register, handleSubmit } = useForm();
 
   const onSubmit = async (data: LoginMail) => {
     const res = await postData(`${server}/api/login`, {
