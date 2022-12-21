@@ -8,7 +8,9 @@ const Footer = () => {
         <div className="site-footer__top">
           <div className="site-footer__description">
             <h6><Logo /> <span>Me</span>-Shop</h6>
-            <p>House My Brand mendesain pakaian untuk yang muda, tua & semua orang di antaranya – tetapi yang terpenting, untuk yang modis</p>
+            <p>Website ini menyediakan berbagai jenis Macrame dan Dream Catcher yang dapat dibeli oleh pengunjung.
+               Bisa juga menyertakan kategori berdasarkan jenis Macrame dan Dream Catcher, seperti Macrame ataupun 
+               Dream Catcher untuk dekorasi rumah, Macrame, Dream Catcher untuk aksesoris, dll.</p>
             {/* <ul className="site-footer__social-networks">
               <li><a href="#"><i className="icon-facebook"></i></a></li>
               <li><a href="#"><i className="icon-twitter"></i></a></li>
@@ -20,15 +22,15 @@ const Footer = () => {
 
           <div className="site-footer__links">
             <ul>
-              <li>Shopping online</li>
+              <li>Belanja Online</li>
               <li><Link href="#">Order Status</Link></li>
               <li><Link href="#">Shipping and Delivery</Link></li>
               <li><Link href="#">Returns</Link></li>
-              <li><Link href="#">Payment options</Link></li>
+              <li><Link href="#">Opsi Pembayaran</Link></li>
               <li><Link href="#">Contact Us</Link></li>
             </ul>
             <ul>
-              <li>Information</li>
+              <li>Informasi</li>
               <li><Link href="#">Gift Cards</Link></li>
               <li><Link href="#">Find a store</Link></li>
               <li><Link href="#">Newsletter</Link></li>
@@ -36,7 +38,7 @@ const Footer = () => {
               <li><Link href="#">Site feedback</Link></li>
             </ul>
             <ul>
-              <li>Contact</li>
+              <li>Kontak</li>
               <li><Link href="#">store@uikit.com</Link></li>
               <li><Link href="#">Hotline: +1 131 138 138</Link></li>
             </ul>

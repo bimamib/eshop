@@ -27,7 +27,7 @@ const ProductsFilter = () => {
       
       <div className={`products-filter__wrapper ${filtersOpen ? 'products-filter__wrapper--open' : ''}`}>
         <div className="products-filter__block">
-          <button type="button">Product type</button>
+          <button type="button">Tipe Produk</button>
           <div className="products-filter__block__content">
             {productsTypes.map(type => (
               <Checkbox 
@@ -47,7 +47,7 @@ const ProductsFilter = () => {
         </div> */}
         
         <div className="products-filter__block">
-          <button type="button">Size</button>
+          <button type="button">Ukuran</button>
           <div className="products-filter__block__content checkbox-square-wrapper">
             {productsSizes.map(type => (
               <Checkbox 
@@ -60,7 +60,7 @@ const ProductsFilter = () => {
         </div>
         
         <div className="products-filter__block">
-          <button type="button">Color</button>
+          <button type="button">Pilihan Warna</button>
           <div className="products-filter__block__content">
             <div className="checkbox-color-wrapper">
               {productsColors.map(type => (

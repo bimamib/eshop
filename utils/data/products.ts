@@ -179,7 +179,7 @@ export const products = [
     },
     {
       id: '4',
-      name: 'Moon Macrame',
+      name: 'Moon Dream Catcher',
       price: 179.999,
       quantityAvailable: 2,
       category: 'Macrame',
@@ -478,7 +478,7 @@ export const products = [
     {
       id: '9',
       name: 'Chillin Up Macrame',
-      price: 119.99,
+      price: 119.999,
       discount: 30,
       quantityAvailable: 2,
       category: 'Macrame',

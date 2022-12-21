@@ -12,8 +12,8 @@ const RegisterPage = () => (
         </div>
 
         <div className="form-block">
-          <h2 className="form-block__title">Buat akun dan benefit nya selama hidup</h2>
-          <p className="form-block__description">Daftar disini ya bree</p>
+          <h2 className="form-block__title">Buat akun Anda Sekarang untuk mendapatkan penawaran terbaik</h2>
+          <p className="form-block__description">Daftar Akun</p>
           
           <form className="form">            
             <div className="form__input-row">
@@ -39,7 +39,7 @@ const RegisterPage = () => (
 
             <p className="form__signup-link">
               <Link href="/login" legacyBehavior>
-                <a href="#">Are you already a member?</a>
+                <a href="#">Siap untuk menjadi member?</a>
               </Link>
             </p>
           </form>

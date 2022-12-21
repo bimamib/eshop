@@ -19,7 +19,7 @@ const ShoppingCart = () => {
     <section className="cart">
       <div className="container">
         <div className="cart__intro">
-          <h3 className="cart__title">Shopping Cart</h3>
+          <h3 className="cart__title">Tambah ke Keranjang</h3>
           <CheckoutStatus step="cart" />
         </div>
 
@@ -28,11 +28,11 @@ const ShoppingCart = () => {
             <table>
               <tbody>
                 <tr>
-                  <th style={{textAlign: 'left'}}>Product</th>
-                  <th>Color</th>
-                  <th>Size</th>
-                  <th>Ammount</th>
-                  <th>Price</th>
+                  <th style={{textAlign: 'left'}}>Produk</th>
+                  <th>Warna</th>
+                  <th>Ukuran</th>
+                  <th>Jumlah</th>
+                  <th>Harga</th>
                   <th></th>
                 </tr>
 
@@ -53,7 +53,7 @@ const ShoppingCart = () => {
           } 
           
           {cartItems.length === 0 && 
-            <p>Nothing in the cart</p>
+            <p>Keranjang Kosong</p>
           }
         </div>
       
