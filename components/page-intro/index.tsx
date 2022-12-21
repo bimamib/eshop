@@ -2,8 +2,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {EffectFade, Navigation} from 'swiper';
 
 import 'swiper/css';
+import { type } from 'os';
 
 SwiperCore.use([EffectFade, Navigation]);
+
+type textSlide = (inText: any)=> {
+  inText:'Menjual Berbagai Jenis Macrame'
+}
 
 const PageIntro = () => {
 
@@ -11,21 +16,32 @@ const PageIntro = () => {
     <section className="page-intro">  
       <Swiper navigation effect="coverflow" className="swiper-wrapper">
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/Makramee/banner1.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/Makramee/banner10.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2 >Sale of the summer collection</h2>
+                {/* <h2 >Sale of the summer collection</h2> 
+                */}
+                <h2></h2>
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
               </div>
             </div>
           </div>
         </SwiperSlide>
-
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/Makramee/banner10.jpg')" }}>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/Makramee/banner14.jpg')" }}>
             <div className="container">
               <div className="page-intro__slide__content">
-                <h2>Menjual Berbagai Jenis Macrame</h2>
+                {/* <h2>Menjual Berbagai Jenis Macrame</h2> */}
+                <a href="#" className="btn-shop"><i className="icon-right"></i>Belanja sekarang</a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="page-intro__slide" style={{ backgroundImage: "url('/images/Makramee/banner13.jpg')" }}>
+            <div className="container">
+              <div className="page-intro__slide__content">
+                {/* <h2>Menjual Berbagai Jenis Macrame</h2> */}
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Belanja sekarang</a>
               </div>
             </div>

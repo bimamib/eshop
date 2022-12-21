@@ -13,21 +13,21 @@ const IndexPage = ()=> {
         <article style={{ backgroundImage: 'url(/images/Makramee/15.jpg)' }} className="featured-item featured-item-large">
           <div className="featured-item__content">
             <h3>Produk Baru!!!</h3>
-            <a href="#" className="btn btn--rounded">Tampilkan Koleksi</a>
+            <a href="/products" className="btn btn--rounded">Tampilkan Koleksi</a>
           </div>
         </article>
 
         <article style={{ backgroundImage: 'url(/images/Makramee/10.jpg)' }} className="featured-item featured-item-small-first">
           <div className="featured-item__content">
             <h3>Varian Galaksi</h3>
-            <a href="#" className="btn btn--rounded">Lihat Lebih Lanjut</a>
+            <a href="/products" className="btn btn--rounded">Lihat Lebih Lanjut</a>
           </div>
         </article>
 
         <article style={{ backgroundImage: 'url(/images/Makramee/11.jpg)' }} className="featured-item featured-item-small">
           <div className="featured-item__content">
             <h3>Semua Promo</h3>
-            <a href="#" className="btn btn--rounded">Lihat Produk</a>
+            <a href="/products" className="btn btn--rounded">Lihat Produk</a>
           </div>
         </article>
       </div>
