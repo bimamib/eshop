@@ -40,21 +40,21 @@ export const products = [
       },
       reviews: [
         {
-          name: 'John Doe',
+          name: 'Fadllin',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-          punctuation: 2
+          description: '<p>Sangat cantik sebagai hiasan rumah. Memberi kesan berwarna yang menambah aesthetic</p>',
+          punctuation: 5
         },
         {
-          name: 'John Doe',
+          name: 'Fadlu',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Ukuran kurang besar tetapi produknya bagus dan indah untuk dipajang </p>',
           punctuation: 4
         },
         {
-          name: 'John Doe',
+          name: 'Rahman',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Warna yang sangat pas dipadukan dengan warna dinding</p>',
           punctuation: 5
         },
       ]
@@ -99,21 +99,21 @@ export const products = [
       },
       reviews: [
         {
-          name: 'John Doe',
+          name: 'Andika',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-          punctuation: 2
+          description: '<p>Kemiripan Foto produk dan aslinya sangat mirip dan cantik. Recomended berbelanja disini </p>',
+          punctuation: 5
         },
         {
-          name: 'John Doe',
+          name: 'Bagus',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-          punctuation: 4
+          description: '<p>Ukurannya sangat pas untuk dipasang di tempat tidur  </p>',
+          punctuation: 5
         },
         {
-          name: 'John Doe',
+          name: 'Pambudi',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Cocok dengan tempat tidur menambah kehangatan karena benang yang dipakai tebal dan kuat</p>',
           punctuation: 5
         },
       ]
@@ -158,21 +158,21 @@ export const products = [
       },
       reviews: [
         {
-          name: 'John Doe',
+          name: 'JRafika',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-          punctuation: 2
-        },
-        {
-          name: 'John Doe',
-          avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Penggabungan 3 macrame yang sangat cocok</p>',
           punctuation: 4
         },
         {
-          name: 'John Doe',
+          name: 'Aulia',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Ukuran yang pas di pajang di dinding</p>',
+          punctuation: 4
+        },
+        {
+          name: 'Madani',
+          avatar: '/images/featured-1.jpg',
+          description: '<p>Harga sangat terjangkau karena pengganbungan 3 macrame</p>',
           punctuation: 5
         },
       ]
@@ -217,21 +217,21 @@ export const products = [
       },
       reviews: [
         {
-          name: 'John Doe',
+          name: 'Bima',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-          punctuation: 2
+          description: '<p>Bentuk bulan yang sempurna menambah hiasan dinding menjadi lebih cantik</p>',
+          punctuation: 5
         },
         {
-          name: 'John Doe',
+          name: 'Pras',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Bentuk dan warna sangat pas</p>',
           punctuation: 4
         },
         {
-          name: 'John Doe',
+          name: 'Tio',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Produk yang sangat menarik untuk dibeli</p>',
           punctuation: 5
         },
       ]
@@ -276,21 +276,21 @@ export const products = [
       },
       reviews: [
         {
-          name: 'John Doe',
+          name: 'Anissya',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>warna broken white cocok sekali</p>',
           punctuation: 2
         },
         {
-          name: 'John Doe',
+          name: 'Agsani',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Sangat suka dengan perpaduan warna dan bentuk macramenya</p>',
           punctuation: 4
         },
         {
-          name: 'John Doe',
+          name: 'Pratiwi',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Ukuran bentuk dan warna sangat pas sekali untuk dinding rumah</p>',
           punctuation: 5
         },
       ]
@@ -336,21 +336,21 @@ export const products = [
       },
       reviews: [
         {
-          name: 'John Doe',
+          name: 'Risa',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-          punctuation: 2
+          description: '<p>Dijadikan tempat duduk dengan bantal nyaman sekali</p>',
+          punctuation: 5
         },
         {
-          name: 'John Doe',
+          name: 'Sulistia',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Di simpan di ruang keluarga sangat pas</p>',
           punctuation: 4
         },
         {
-          name: 'John Doe',
+          name: 'Wati',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Digantung di kamar untuk tempat duduk membuat kamar menjadi lebih aesthetic</p>',
           punctuation: 5
         },
       ]
@@ -396,21 +396,21 @@ export const products = [
       },
       reviews: [
         {
-          name: 'John Doe',
+          name: 'Sayid',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-          punctuation: 2
+          description: '<p>Bentuknya yang bulat sempurna cocok dijadikan hiasan dinding</p>',
+          punctuation: 5
         },
         {
-          name: 'John Doe',
+          name: 'Haikal',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Sangat suka dengan produknya</p>',
           punctuation: 4
         },
         {
-          name: 'John Doe',
+          name: 'Daniel',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Warna putih bersih dan benang yang dipakai kuat dan lembut</p>',
           punctuation: 5
         },
       ]
@@ -456,21 +456,21 @@ export const products = [
       },
       reviews: [
         {
-          name: 'John Doe',
+          name: 'Hani',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-          punctuation: 2
+          description: '<p>Perpaduan antara warna peach dan putih sangat cocok</p>',
+          punctuation: 5
         },
         {
-          name: 'John Doe',
+          name: 'Rahma',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Produk yang sangat menarik</p>',
           punctuation: 4
         },
         {
-          name: 'John Doe',
+          name: 'Waty',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>warna nya bagus sekali bentuknya juga sangat pas</p>',
           punctuation: 5
         },
       ]
@@ -516,21 +516,21 @@ export const products = [
       },
       reviews: [
         {
-          name: 'John Doe',
+          name: 'Pandu',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
-          punctuation: 2
-        },
-        {
-          name: 'John Doe',
-          avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Ukuran terlalu besar untuk di pajang tetapi produknya bagus</p>',
           punctuation: 4
         },
         {
-          name: 'John Doe',
+          name: 'Rizky',
           avatar: '/images/featured-1.jpg',
-          description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s</p>',
+          description: '<p>Cocok digantung untuk tempat duduk</p>',
+          punctuation: 4
+        },
+        {
+          name: 'Wicaksana',
+          avatar: '/images/featured-1.jpg',
+          description: '<p>Nama produk sangat pas karena membuat kita menjadi rilex</p>',
           punctuation: 5
         },
       ]
