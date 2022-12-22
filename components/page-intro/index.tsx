@@ -56,7 +56,7 @@ const PageIntro = () => {
               <i className="icon-shipping"></i>
               <div className="data-item__content">
                 <h4>Gratis Ongkir</h4>
-                <p>Untuk Minimal Pembelian 1 juta</p>
+                <p>Untuk Minimal Pembelian Rp500.000</p>
               </div>
             </li>
             

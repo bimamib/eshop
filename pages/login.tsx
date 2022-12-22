@@ -26,20 +26,19 @@ const LoginPage = () => {
         <div className="container">
           <div className="back-button-section">
             <Link href="/"legacyBehavior >
-              <a><i className="icon-left"></i> Back to store</a>
+              <a><i className="icon-left"></i> Kembali ke halaman utama</a>
             </Link>
           </div>
 
           <div className="form-block">
-            <h2 className="form-block__title">Log in</h2>
-            <p className="form-block__description">Lorem Ipsum is simply dummy text of the printing and typesetting 
-            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <h2 className="form-block__title">Masuk</h2>
+            <p className="form-block__description">Silahkan Memasukkan Email dan Password disini</p>
             
             <form className="form" onSubmit={handleSubmit(onSubmit)}>
               <div className="form__input-row">
                 <input 
                   className="form__input" 
-                  placeholder="email" 
+                  placeholder="Email" 
                   type="text" 
                   name="email"
                   {...register('login', { required: true,pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/ })}
@@ -79,10 +78,10 @@ const LoginPage = () => {
                       {...register('test', { required: true })}
                     />
                     <span className="checkbox__check"></span>
-                    <p>Keep me signed in</p>
+                    <p>Biarkan saya tetap masuk</p>
                   </label>
                 </div>
-                <a href="/forgot-password" className="form__info__forgot-password">Forgot password?</a>
+                <a href="/forgot-password" className="form__info__forgot-password">Lupa Password?</a>
               </div>
 
               {/* <div className="form__btns">
@@ -90,9 +89,9 @@ const LoginPage = () => {
                 <button type="button" className="btn-social google-btn"><img src="/images/icons/gmail.svg" alt="gmail" /> Gmail</button>
               </div> */}
 
-              <button type="submit" className="btn btn--rounded btn--yellow btn-submit">Sign in</button>
+              <button type="submit" className="btn btn--rounded btn--yellow btn-submit">Masuk</button>
 
-              <p className="form__signup-link">Not a member yet? <a href="/register">Sign up</a></p>
+              <p className="form__signup-link">Belum mempunyai akun? <a href="/register">Daftar</a></p>
             </form>
           </div>
 

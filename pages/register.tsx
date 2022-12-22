@@ -6,12 +6,12 @@ const RegisterPage = () => (
       <div className="container">
         <div className="back-button-section">
           <Link href="/login" legacyBehavior>
-            <a><i className="icon-left"></i> Back to store</a>
+            <a><i className="icon-left"></i> Kembali ke halaman utama</a>
           </Link>
         </div>
 
         <div className="form-block">
-          <h2 className="form-block__title">Buat akun Anda Sekarang untuk mendapatkan penawaran terbaik</h2>
+          <h2 className="form-block__title">Buat akun Anda sekarang untuk mendapatkan penawaran terbaik</h2>
           <p className="form-block__description">Daftar Akun</p>
           
           <form className="form">            
@@ -34,7 +34,7 @@ const RegisterPage = () => (
               </div>
             </div>
 
-            <button type="button" className="btn btn--rounded btn--yellow btn-submit">Sign up</button>
+            <button type="button" className="btn btn--rounded btn--yellow btn-submit">Daftar</button>
 
             <p className="form__signup-link">
               <Link href="/login" legacyBehavior>

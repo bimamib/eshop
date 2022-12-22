@@ -95,10 +95,10 @@ const CheckoutPage = () => {
                     <img src="/images/logos/BankBCA.png" alt="Paypal" />
                   </li>
                   <li className="round-item">
-                    <img src="/images/logos/ShopeePay Logo.png" alt="Paypal" />
+                    <img src="/images/logos/ShopeePay2 Logo.png" alt="Paypal" />
                   </li>
                   <li className="round-item">
-                    <img src="/images/logos/Gopay2.png" alt="Paypal" />
+                    <img src="/images/logos/GOPAYY.png" alt="Paypal" />
                   </li>
                   <li className="round-item">
                     <img src="/images/logos/OVO2.png" alt="Paypal" />
@@ -113,7 +113,7 @@ const CheckoutPage = () => {
                 <h3 className="block__title">Jasa Pengiriman</h3>
                 <ul className="round-options round-options--two">
                   <li className="round-item round-item--bg">
-                    <img src="/images/logos/LOGO-JNT.png" alt="Paypal" />
+                    <img src="/images/logos/Logo anter aja.png" alt="Paypal" />
                     <p>Rp20.000</p>
                   </li>
                   <li className="round-item round-item--bg">
@@ -125,7 +125,7 @@ const CheckoutPage = () => {
                     <p>Rp15.000</p>
                   </li>
                   <li className="round-item round-item--bg">
-                    <img src="/images/logos/Logo-TIKI.png" alt="Paypal" />
+                    <img src="/images/logos/Ninja4.png" alt="Paypal" />
                     <p>Rp10.000</p>
                   </li>
                 </ul>
