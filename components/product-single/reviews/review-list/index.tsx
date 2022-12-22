@@ -1,7 +1,6 @@
-import { ReviewType } from "../../../../types";
-import createmarkup from "../../../../utils/markup";
-import  Rater  from 'react-rater';
-
+import Rater from 'react-rater';
+import { ReviewType } from '../../../../types';
+import createmarkup from '../../../../utils/markup';
 
 type ReviewsListType = {
   reviews: ReviewType[];

@@ -11,13 +11,6 @@ const Footer = () => {
             <p>Website ini menyediakan berbagai jenis Macrame dan Dream Catcher yang dapat dibeli oleh pengunjung.
                Bisa juga menyertakan kategori berdasarkan jenis Macrame dan Dream Catcher, seperti Macrame ataupun 
                Dream Catcher untuk dekorasi rumah, Macrame, Dream Catcher untuk aksesoris, dll.</p>
-            {/* <ul className="site-footer__social-networks">
-              <li><a href="#"><i className="icon-facebook"></i></a></li>
-              <li><a href="#"><i className="icon-twitter"></i></a></li>
-              <li><a href="#"><i className="icon-linkedin"></i></a></li>
-              <li><a href="#"><i className="icon-instagram"></i></a></li>
-              <li><a href="#"><i className="icon-youtube-play"></i></a></li>
-            </ul> */}
           </div>
 
           <div className="site-footer__links">
