@@ -1,5 +1,6 @@
 import ProductItem from './../../product-item';
 
+import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { ProductTypeList } from '../../../types';
 

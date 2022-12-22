@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {EffectFade, Navigation} from 'swiper';
 
 import 'swiper/css';
-import { type } from 'os';
 
 SwiperCore.use([EffectFade, Navigation]);
 
