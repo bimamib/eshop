@@ -1,5 +1,4 @@
 
-import Link from 'next/link';
 import useSwr from 'swr';
 import ProductsCarousel from './corousel';
 
@@ -12,7 +11,7 @@ const ProductsFeatured = () => {
       <div className="container">
         <header className="section-products-featured__header">
           <h3>Dipilih hanya untuk Anda</h3>
-          <Link href="/products" className="btn btn--rounded btn--border">Tampilkan Semua</Link>
+          <a href="/products" className="btn btn--rounded btn--border">Show All</a>
         </header>
 
         <ProductsCarousel products={data} />

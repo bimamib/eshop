@@ -34,7 +34,7 @@ const LoginPage = () => {
             <h2 className="form-block__title">Masuk</h2>
             <p className="form-block__description">Silahkan Memasukkan Email dan Password disini</p>
             
-            <form className="form" onSubmit={handleSubmit(onSubmit)}>
+            <form className="form" onSubmit={handleSubmit()}>
               <div className="form__input-row">
                 <input 
                   className="form__input" 

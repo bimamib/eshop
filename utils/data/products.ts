@@ -43,7 +43,7 @@ export const products = [
           name: 'Fadllin',
           avatar: '/images/featured-1.jpg',
           description: '<p>Sangat cantik sebagai hiasan rumah. Memberi kesan berwarna yang menambah aesthetic</p>',
-          punctuation: 5
+          punctuation: 2
         },
         {
           name: 'Fadlu',
