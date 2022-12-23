@@ -9,16 +9,16 @@ import SwiperCore, { Autoplay } from 'swiper';
 
 SwiperCore.use([Autoplay]);
 
-let slidesPerView =0.5;
+let slidesPerView = 1.3;
 let centeredSlides = true;
 let spaceBetween = 30;
 if (process.browser) {
-  if(window.innerWidth > 500) {
-    slidesPerView = 3;
-    spaceBetween = 40;
+  if(window.innerWidth > 768) {
+    slidesPerView = 4;
+    spaceBetween = 35;
     centeredSlides = false;
   }
-  if(window.innerWidth > 200) {
+  if(window.innerWidth > 1024) {
     slidesPerView = 4;
     spaceBetween = 65;
     centeredSlides = false;

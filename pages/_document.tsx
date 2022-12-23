@@ -25,6 +25,7 @@ export default class CustomDocument extends Document<DocumentProps> {
     return (
       <Html lang="en">
         <Head>
+        <link rel="icon" href="/favicon.svg" />
 
           {/* We only want to add the scripts if in production */}
           {isProduction && (
