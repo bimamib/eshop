@@ -1,6 +1,5 @@
 import Layout from '../layouts/main';
 import PageIntro from '../components/page-intro';
-import Link from 'next/link';
 import ProductsFeatured from './../components/products-featured/index';
 import Subscribe from '../components/subscribe';
 import Footer from '../components/footer';

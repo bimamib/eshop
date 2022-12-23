@@ -4,6 +4,11 @@ import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { ProductTypeList } from '../../../types';
 
+import SwiperCore, { Autoplay } from 'swiper';
+
+
+SwiperCore.use([Autoplay]);
+
 let slidesPerView =0.5;
 let centeredSlides = true;
 let spaceBetween = 30;
@@ -29,7 +34,7 @@ const ProductsCarousel = ({ products }: ProductsCarouselType) => {
 
   return (
     <div className="products-carousel">
-      <Swiper 
+      <Swiper  autoplay={{ delay: 5500 }} 
       spaceBetween={spaceBetween} 
       loop={true} 
       centeredSlides={centeredSlides} 

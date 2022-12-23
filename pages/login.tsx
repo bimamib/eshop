@@ -10,16 +10,16 @@ type LoginMail = {
 }
 
 const LoginPage = () => {
-  const { register, handleSubmit } = useForm();
+  // const { register, handleSubmit } = useForm();
 
-  const onSubmit = async (data: LoginMail) => {
-    const res = await postData(`${server}/api/login`, {
-      email: data.email,
-      password: data.password
-    });
+  // const onSubmit = async (data: LoginMail) => {
+  //   const res = await postData(`${server}/api/login`, {
+  //     email: data.email,
+  //     password: data.password
+  //   });
 
-    console.log(res);
-  };
+  //   console.log(res);
+  // };
 
   return (
       <section className="form-page">
@@ -34,14 +34,14 @@ const LoginPage = () => {
             <h2 className="form-block__title">Masuk</h2>
             <p className="form-block__description">Silahkan Memasukkan Email dan Password disini</p>
             
-            <form className="form" onSubmit={handleSubmit()}>
+            <form className="form">
               <div className="form__input-row">
                 <input 
                   className="form__input" 
                   placeholder="Email" 
                   type="text" 
                   name="email"
-                  {...register('login', { required: true,pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/ })}
+                  // {...register('login', { required: true,pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/ })}
                 />
                 
                 {/* {errors.email && errors.email.type === 'required' && 
@@ -60,7 +60,7 @@ const LoginPage = () => {
                   placeholder="Password" 
                   name="password"
                   // ref={register({ required: true })}
-                  {...register('test', { required: true })}
+                  // {...register('test', { required: true })}
                 />
                 {/* {errors.password && errors.password.type === 'required' && 
                   <p className="message message--error">This field is required</p>
@@ -75,7 +75,7 @@ const LoginPage = () => {
                       name="keepSigned" 
                       id="check-signed-in" 
                       // ref={register({ required: false })}
-                      {...register('test', { required: true })}
+                      // {...register('test', { required: true })}
                     />
                     <span className="checkbox__check"></span>
                     <p>Biarkan saya tetap masuk</p>

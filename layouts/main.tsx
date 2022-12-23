@@ -7,8 +7,7 @@ type LayoutType = {
     children?: React.ReactNode;
 }
 
-export default({ children,title = 'E-shop'}:
-LayoutType) => {
+export default({ children,title = 'E-shop'}:LayoutType) => {
     const router = useRouter();
     const pathname = router.pathname;
 
