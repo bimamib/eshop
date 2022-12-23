@@ -18,11 +18,13 @@ if(isProduction) {
   Router.events.on('routeChangeComplete', (url: string) => gtag.pageview(url));
 }
 
+
 const MyApp = ({ Component, pageProps }: AppProps) => (
+
   <Fragment>
     <Component {...pageProps} />
   </Fragment>
 );
-
-// export default (MyApp);
 export default wrapper.withRedux(MyApp);
+
+// export default MyApp;

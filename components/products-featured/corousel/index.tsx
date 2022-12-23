@@ -4,16 +4,16 @@ import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { ProductTypeList } from '../../../types';
 
-let slidesPerView = 1.3;
+let slidesPerView =0.5;
 let centeredSlides = true;
 let spaceBetween = 30;
 if (process.browser) {
-  if(window.innerWidth > 768) {
+  if(window.innerWidth > 500) {
     slidesPerView = 3;
-    spaceBetween = 35;
+    spaceBetween = 40;
     centeredSlides = false;
   }
-  if(window.innerWidth > 1024) {
+  if(window.innerWidth > 200) {
     slidesPerView = 4;
     spaceBetween = 65;
     centeredSlides = false;
