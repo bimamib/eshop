@@ -5,16 +5,16 @@ import Footer from '../../components/footer';
 import Breadcrumb from '../../components/breadcrumb';
 import ProductsFeatured from '../../components/products-featured';
 import { server } from '../../utils/server'; 
-import { ProductTypeList } from '../../types'; 
+import { ProductType, ProductTypeList } from '../../types'; 
 // types
-// import { ProductType } from 'types';
 import Gallery from '../../components/product-single/gallery';
 import Content from '../../components/product-single/content';
 import Description from '../../components/product-single/description';
 import Reviews from '../../components/product-single/reviews';
 
 type ProductPageType = {
-  product: ProductTypeList;
+  // products: ProductTypeList
+  product: ProductType
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
@@ -39,7 +39,7 @@ const Product = ({ product }: ProductPageType) => {
         <div className="container">
           <div className="product-single__content">
             <Gallery images={product.images} />
-            <Content product={product} />
+            <Content product={product}/>
           </div>
 
           <div className="product-single__info">

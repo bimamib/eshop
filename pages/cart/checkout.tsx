@@ -139,7 +139,7 @@ const CheckoutPage = () => {
                 
                 <div className="checkout-total">
                   <p>Total </p>
-                  <h3>Rp{priceTotal}</h3>
+                  <h3>Rp{priceTotal.toFixed(3)}</h3>
                 </div>
               </div>
             </div>
@@ -148,8 +148,10 @@ const CheckoutPage = () => {
           <div className="cart-actions cart-actions--checkout">
             <a href="/cart" className="cart__btn-back"><i className="icon-left"></i> Back</a>
             <div className="cart-actions__items-wrapper">
-              <button type="button" className="btn btn--rounded btn--border">Lanjut Belanja</button>
-              <button type="button" className="btn btn--rounded btn--yellow">Proses Pembayaran</button>
+              {/* <button type="button" className="btn btn--rounded btn--border"></button> */}
+              {/* <button type="button" className="btn btn--rounded btn--yellow">Proses </button> */}
+              <a href="/products" className="btn btn--rounded btn--border">Lanjut Belanja</a>
+              <a href="/" className="btn btn--rounded btn--yellow">Proses Pembayaran</a>
             </div>
           </div>
         </div>

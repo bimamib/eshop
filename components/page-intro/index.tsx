@@ -1,19 +1,15 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, {EffectFade, Navigation} from 'swiper';
+import SwiperCore, { Navigation,Autoplay } from 'swiper';
 
-import 'swiper/css';
+// import 'swiper/css';
 
-SwiperCore.use([EffectFade, Navigation]);
-
-type textSlide = (inText: any)=> {
-  inText:'Menjual Berbagai Jenis Macrame'
-}
+SwiperCore.use([ Navigation,Autoplay]);
 
 const PageIntro = () => {
 
   return (
     <section className="page-intro">  
-      <Swiper navigation effect="creative" className="swiper-wrapper">
+      <Swiper navigation effect="creative" className="swiper-wrapper" autoplay={{ delay: 3500 }} >
         <SwiperSlide>
           <div className="page-intro__slide" style={{ backgroundImage: "url('/images/Makramee/banner10.jpg')" }}>
             <div className="container">
