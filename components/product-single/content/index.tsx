@@ -55,13 +55,10 @@ const Content = ({ product }: ProductContent) => {
   return (
     <section className="product-content">
       <div className="product-content__intro">
-        <h5 className="product__id">Product ID:<br></br>{product.id}</h5>
-        <span className="product-on-sale">Diskon</span>
         <h2 className="product__name">{product.name}</h2>
-
         <div className="product__prices">
           <h4>Rp{ product.currentPrice }</h4>
-          {product.discount &&
+          {product.discount && 
             <span>Rp{ product.price }</span>
           }
         </div>
