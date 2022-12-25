@@ -1,3 +1,4 @@
+import Zoom from "next-image-zoom";
 type GalleryProductType = {
     images: string[]
   }
@@ -15,8 +16,8 @@ type GalleryProductType = {
           ))}
         </div>
   
-        <div className="product-gallery__image">
-          <img src={featImage} alt="" />
+        <div className="product-gallery__image">          
+          <Zoom src={featImage} layout={"fill"} objectFit={"contain"} alt={""} />
         </div>
       </section>
     );
