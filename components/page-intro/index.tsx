@@ -12,11 +12,10 @@ const PageIntro = () => {
     <section className="page-intro">  
       <Swiper navigation effect="creative" className="swiper-wrapper" autoplay={{ delay: 3000 }} >
         <SwiperSlide>
-          <div className="page-intro__slide">
+          <div className="page-intro__slide" >
             <Image src={'/images/Makramee/banner10.jpg'} alt={''} layout="fill"/>
             <div className="container">
               <div className="page-intro__slide__content">
-                {/* <h2 >Sale of the summer collection</h2>  */}
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
               </div>
             </div>
@@ -24,11 +23,9 @@ const PageIntro = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="page-intro__slide">
-            {/* <Image src={'/images/Makramee/banner14.jpg'} alt={''}  layout="fill" /> */}
             <Image src={'/images/Makramee/banner14.jpg'} alt={''} layout="fill"/>
             <div className="container">
               <div className="page-intro__slide__content">
-                {/* <h2>Menjual Berbagai Jenis Macrame</h2> */}
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Belanja sekarang</a>
               </div>
             </div>
@@ -36,11 +33,9 @@ const PageIntro = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="page-intro__slide">
-            {/* <Image src={'/images/Makramee/banner13.jpg'}  layout="fill" alt={''} /> */}
             <Image src={'/images/Makramee/banner11.jpg'} alt={''} layout="fill"/>
             <div className="container">
               <div className="page-intro__slide__content">
-                {/* <h2>Menjual Berbagai Jenis Macrame</h2> */}
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Belanja sekarang</a>
               </div>
             </div>
