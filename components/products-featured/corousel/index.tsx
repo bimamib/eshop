@@ -34,7 +34,7 @@ const ProductsCarousel = ({ products }: ProductsCarouselType) => {
 
   return (
     <div className="products-carousel">
-      <Swiper  autoplay={{ delay: 5500 }} 
+      <Swiper  autoplay={{ delay: 5000 }} 
       spaceBetween={spaceBetween} 
       loop={true} 
       centeredSlides={centeredSlides} 
