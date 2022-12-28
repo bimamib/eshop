@@ -11,7 +11,7 @@ const ProductsFeatured = () => {
       <div className="container">
         <header className="section-products-featured__header">
           <h3>Dipilih hanya untuk Anda</h3>
-          <a href="/products" className="btn btn--rounded btn--border">Show All</a>
+          <a href="/products" className="btn btn--rounded btn--border">Tampilkan Semua</a>
         </header>
 
         <ProductsCarousel products={data} />
