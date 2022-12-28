@@ -64,7 +64,8 @@ const Header = ({ isErrorPage }: HeaderType) => {
           <Link href="/products" legacyBehavior>
             <a>Produk</a>
           </Link>
-            <a href="#">Tentang Kami</a>
+            <a href="/about">Tentang Kami</a>
+          <a href="/login" className="site-nav__btn">Account</a>
         </nav>
 
         <div className="site-header__actions">
