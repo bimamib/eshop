@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Subscribe = () => {
     return (
@@ -6,7 +6,7 @@ const Subscribe = () => {
         <div className="container">
           <div className="subscribe__content">
             
-          <Image src={'/images/Makramee/banner11.jpg'} alt={''} layout="fill"/>
+          <Image src={'/images/Makramee/Banner9.jpg'} alt={''} layout="fill"/>
             <h4>Segera Berlangganan untuk mendapatkan Hadiah dan Promo menarik lainnya pada setiap Minggu Ceria</h4>
             <form className="subscribe__form">
               <input type="email" placeholder="Email address" />

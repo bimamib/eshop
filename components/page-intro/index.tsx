@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation,Autoplay } from 'swiper';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 // import 'swiper/css';
 

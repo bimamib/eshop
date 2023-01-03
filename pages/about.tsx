@@ -1,9 +1,4 @@
 import Layout from '../layouts/main';
-<<<<<<< HEAD
-import PageIntro from '../components/page-intro';
-import Link from 'next/link';
-import ProductsFeatured from '../components/products-featured/index';
-import Subscribe from '../components/subscribe';
 import Footer from '../components/footer';
 const About = ()=> {
   return (
@@ -12,23 +7,10 @@ const About = ()=> {
        Kami menawarkan berbagai pilihan motif dan model yang dapat disesuaikan dengan kebutuhan Anda. 
        Selain itu tim kami terdiri dari para ahli dan pecinta kerajinan macrame yang telah banyak melakukan riset dan mengembangkan berbagai teknik untuk menghasilkan produk berkualitas tinggi. 
        Kami selalu berusaha untuk meningkatkan kualitas produk dan pelayanan kami agar dapat memberikan kepuasan kepada pelanggan kami.
-       Bergabunglah bersama kami dan dapatkan produk kerajinan macrame terbaik yang dapat menghiasi rumah Anda. Kami akan senang untuk menjadi bagian dari kebahagiaan Anda dengan menyediakan produk-produk yang sesuai dengan kebutuhan dan selera Anda.</p>
-
-      {/* <ProductsFeatured /> */}
+       Bergabunglah bersama kami dan dapatkan produk kerajinan macrame terbaik yang dapat menghiasi rumah Anda. Kami akan senang untuk menjadi bagian dari kebahagiaan Anda dengan menyediakan produk-produk yang sesuai dengan kebutuhan dan selera Anda.
+      </p>
       <Footer />
       </Layout>
-=======
-import Footer from '../components/footer';
-import  Image  from 'next/image';
-
-const About = ()=> {
-  return (
-    <Layout>
-     
-
-      <Footer />
-    </Layout>
->>>>>>> aae6a1b61028470726ed018a3f61c8d03154bce7
       
   )
 }
