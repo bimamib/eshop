@@ -482,7 +482,7 @@ export const products = [
       discount: 30,
       quantityAvailable: 2,
       category: 'Macrame',
-      currentPrice:299.999,
+      currentPrice: 299.999,
       sizes: ['xl', 'l'], 
       colors: ['#000', '6F3E18', '#D4BE8D', '#FFF'],
       images: [

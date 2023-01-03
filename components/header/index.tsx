@@ -65,6 +65,10 @@ const Header = ({ isErrorPage }: HeaderType) => {
             <a>Produk</a>
           </Link>
             <a href="/about">Tentang Kami</a>
+<<<<<<< HEAD
+=======
+          <a href="/login" className="site-nav__btn">Account</a>
+>>>>>>> aae6a1b61028470726ed018a3f61c8d03154bce7
         </nav>
 
         <div className="site-header__actions">

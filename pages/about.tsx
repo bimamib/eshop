@@ -1,4 +1,5 @@
 import Layout from '../layouts/main';
+<<<<<<< HEAD
 import PageIntro from '../components/page-intro';
 import Link from 'next/link';
 import ProductsFeatured from '../components/products-featured/index';
@@ -16,6 +17,18 @@ const About = ()=> {
       {/* <ProductsFeatured /> */}
       <Footer />
       </Layout>
+=======
+import Footer from '../components/footer';
+import  Image  from 'next/image';
+
+const About = ()=> {
+  return (
+    <Layout>
+     
+
+      <Footer />
+    </Layout>
+>>>>>>> aae6a1b61028470726ed018a3f61c8d03154bce7
       
   )
 }
