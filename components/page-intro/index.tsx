@@ -13,7 +13,7 @@ const PageIntro = () => {
       <Swiper navigation effect="creative" className="swiper-wrapper" autoplay={{ delay: 3000 }} >
         <SwiperSlide>
           <div className="page-intro__slide">
-            <Image src={'/images/Makramee/banner10.jpg'} alt={''} layout="fill"/>
+            <Image src={'/images/Makramee/Banner10.jpg'} alt={''} layout="fill"/>
             <div className="container">
               <div className="page-intro__slide__content">
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
@@ -23,7 +23,7 @@ const PageIntro = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="page-intro__slide">
-            <Image src={'/images/Makramee/banner14.jpg'}alt={''} layout="fill"/>
+            <Image src={'/images/Makramee/Banner14.jpg'}alt={''} layout="fill"/>
             <div className="container">
               <div className="page-intro__slide__content">
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Belanja sekarang</a>
@@ -33,7 +33,7 @@ const PageIntro = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="page-intro__slide">
-            <Image src={'/images/Makramee/banner11.jpg'} alt={''} layout="fill"/>
+            <Image src={'/images/Makramee/Banner11.jpg'} alt={''} layout="fill"/>
             <div className="container">
               <div className="page-intro__slide__content">
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Belanja sekarang</a>
