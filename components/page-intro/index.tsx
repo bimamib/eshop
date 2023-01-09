@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation,Autoplay } from 'swiper';
-import Image from "next/image";
 
-// import 'swiper/css';
+import 'swiper/css';
+import Image from 'next/image';
 
 SwiperCore.use([ Navigation,Autoplay]);
 
@@ -12,8 +12,8 @@ const PageIntro = () => {
     <section className="page-intro">  
       <Swiper navigation effect="creative" className="swiper-wrapper" autoplay={{ delay: 3000 }} >
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url(/images/Makramee/banner10.jpg)" }}>
-            {/* <Image src={'/images/Makramee/banner10.jpg'} alt={''} fill sizes="100vw" /> */}
+          <div className="page-intro__slide">
+            <Image src={'/images/Makramee/banner10.jpg'} alt={''} layout="fill"/>
             <div className="container">
               <div className="page-intro__slide__content">
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>
@@ -22,8 +22,8 @@ const PageIntro = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url(/images/Makramee/banner14.jpg)" }}>
-            {/* <Image src={'/images/Makramee/banner14.jpg'} alt={''} fill sizes="100vw" /> */}
+          <div className="page-intro__slide">
+            <Image src={'/images/Makramee/banner14.jpg'}alt={''} layout="fill"/>
             <div className="container">
               <div className="page-intro__slide__content">
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Belanja sekarang</a>
@@ -32,8 +32,8 @@ const PageIntro = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="page-intro__slide" style={{ backgroundImage: "url(/images/Makramee/banner11.jpg)" }}>
-            {/* <Image src={'/images/Makramee/banner11.jpg'} alt={''} fill sizes="100vw" /> */}
+          <div className="page-intro__slide">
+            <Image src={'/images/Makramee/banner11.jpg'} alt={''} layout="fill"/>
             <div className="container">
               <div className="page-intro__slide__content">
                 <a href="#" className="btn-shop"><i className="icon-right"></i>Belanja sekarang</a>
