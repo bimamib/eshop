@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Autoplay } from "swiper";
 import Image from "next/image";
+=======
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Navigation,Autoplay } from 'swiper';
+>>>>>>> 342b61cc5d5da7b05f9ba7b1ae2d4eb6b1d61d3e
 
-// import 'swiper/css';
+import 'swiper/css';
+import Image from 'next/image';
 
 SwiperCore.use([Navigation, Autoplay]);
 
@@ -16,11 +22,16 @@ const PageIntro = () => {
         autoplay={{ delay: 3000 }}
       >
         <SwiperSlide>
+<<<<<<< HEAD
           <div
             className="page-intro__slide"
             style={{ backgroundImage: "url(/images/Makramee/banner10.jpg)" }}
           >
             {/* <Image src={'/images/Makramee/banner10.jpg'} alt={''} fill sizes="100vw" /> */}
+=======
+          <div className="page-intro__slide">
+            <Image src={'/images/Makramee/Banner10.jpg'} alt={''} layout="fill"/>
+>>>>>>> 342b61cc5d5da7b05f9ba7b1ae2d4eb6b1d61d3e
             <div className="container">
               <div className="page-intro__slide__content">
                 <a href="#" className="btn-shop">
@@ -31,11 +42,16 @@ const PageIntro = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
+<<<<<<< HEAD
           <div
             className="page-intro__slide"
             style={{ backgroundImage: "url(/images/Makramee/banner14.jpg)" }}
           >
             {/* <Image src={'/images/Makramee/banner14.jpg'} alt={''} fill sizes="100vw" /> */}
+=======
+          <div className="page-intro__slide">
+            <Image src={'/images/Makramee/Banner14.jpg'}alt={''} layout="fill"/>
+>>>>>>> 342b61cc5d5da7b05f9ba7b1ae2d4eb6b1d61d3e
             <div className="container">
               <div className="page-intro__slide__content">
                 <a href="#" className="btn-shop">
@@ -46,11 +62,16 @@ const PageIntro = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
+<<<<<<< HEAD
           <div
             className="page-intro__slide"
             style={{ backgroundImage: "url(/images/Makramee/banner11.jpg)" }}
           >
             {/* <Image src={'/images/Makramee/banner11.jpg'} alt={''} fill sizes="100vw" /> */}
+=======
+          <div className="page-intro__slide">
+            <Image src={'/images/Makramee/Banner11.jpg'} alt={''} layout="fill"/>
+>>>>>>> 342b61cc5d5da7b05f9ba7b1ae2d4eb6b1d61d3e
             <div className="container">
               <div className="page-intro__slide__content">
                 <a href="#" className="btn-shop">
