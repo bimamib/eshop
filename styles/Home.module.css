@@ -73,6 +73,10 @@
   max-width: 800px;
 }
 
+.layout p {
+  text-align: justify;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
@@ -107,6 +111,7 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
 
 @media (max-width: 600px) {
   .grid {
